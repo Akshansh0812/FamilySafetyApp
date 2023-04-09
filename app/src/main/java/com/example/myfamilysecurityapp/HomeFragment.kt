@@ -26,11 +26,36 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val listMembers = listOf<MemberModel>(
-            MemberModel("Akshay"),
-            MemberModel("Tanu"),
-            MemberModel("Mummy"),
-            MemberModel("Papa"),
-            MemberModel("Aashish")
+            MemberModel(
+                "Akshay",
+                "9th building, 2nd Floor, maldiv road, manali",
+                "90%",
+                "226"
+            ),
+            MemberModel(
+                "Tanu",
+                "9th building, 2nd Floor, maldiv road, manali",
+                "90%",
+                "226"
+            ),
+            MemberModel(
+                "Mummy",
+                "9th building, 2nd Floor, maldiv road, manali",
+                "90%",
+                "226"
+            ),
+            MemberModel(
+                "Papa",
+                "9th building, 2nd Floor, maldiv road, manali",
+                "90%",
+                "226"
+            ),
+            MemberModel(
+                "Aashish",
+                "9th building, 2nd Floor, maldiv road, manali",
+                "90%",
+                "226"
+            )
         )
         val adapter = MemberAdapter(listMembers)
 
